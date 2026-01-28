@@ -1,0 +1,42 @@
+# Context-Aware PII Detection System
+# Requirements File
+
+# ============================================
+# CORE REQUIREMENTS (ESSENTIAL)
+# Install these first: pip install -r requirements-minimal.txt
+# ============================================
+
+fastapi
+uvicorn
+pydantic
+streamlit
+requests
+scikit-learn
+anthropic
+presidio-analyzer
+presidio-anonymizer
+spacy
+python-dotenv>=1.0.0
+
+# ============================================
+# OPTIONAL REQUIREMENTS
+# For production features: pip install -r requirements-optional.txt
+# ============================================
+
+# PII Detection (Production-grade - Optional)
+# presidio-analyzer==2.2.354
+# presidio-anonymizer==2.2.354
+
+# GenAI Reasoning (Requires API key - Optional)
+# anthropic==0.25.1
+
+# Web UI (Optional)
+# streamlit==1.31.1
+
+# ============================================
+# NOTES
+# ============================================
+# - Minimal install works for demo and academic presentation
+# - Optional packages add production features
+# - See requirements-minimal.txt and requirements-optional.txt
+# ============================================
